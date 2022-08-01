@@ -1,18 +1,18 @@
 Pod::Spec.new do |s|
-  s.name             = 'POD_TEST_FRAMEWORK_K'
+  s.name             = 'TestFrameworkPodInegration'
   s.version          = '1.0.0'
   s.summary          = 'test framework pod integration'
  
   s.description      = 'POD_TEST_FRAMEWORK_K' 
-  s.homepage         = 'https://github.com/vishwas-mukund-zc/TestFrameworkPodInegration/''
+  s.homepage         = 'https://github.com/vishwas-mukund-zc/TestFrameworkPodInegration/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Zoomcar' => 'vishwas.mukund@zoomcar.com' }
-  s.source           = { :http => 'https://github.com/vishwas-mukund-zc/TestFrameworkPodInegration/raw/main/1.0.0/TestFrameworkPodInegration.zip'}
+  s.source           = { :http => 'https://github.com/vishwas-mukund-zc/TestFrameworkPodInegration/blob/master/1.0.0/TestFrameworkPodInegration.zip'}
   s.ios.deployment_target = '12.0'
-  s.source_files = 'ZMS/**/*.{swift}'
-  s.resource_bundle = {
-      'ZMSBundle' => ['ZMS/**/*.{xcassets,png,ttf,gif,json}']
-  }
+ # s.source_files = 'ZMS/**/*.{swift}'
+ # s.resource_bundle = {
+  #    'ZMSBundle' => ['ZMS/**/*.{xcassets,png,ttf,gif,json}']
+ # }
 
   s.swift_version = '5.0'
   s.static_framework = true
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.dependency 'zmsmpp', :path => '~/ZoomCar/ZmsMppDemo/mobile-zms-mpp/zmsmpp'  
    
   s.frameworks = 'Foundation', 'UIKit', 'CoreData'
-  s.vendored_frameworks = 'ZMS/zmsKmm.framework'
+  s.vendored_frameworks = 'TestFrameworkPodInegration.framework'
 
   s.xcconfig = {
     "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/cocos-binary\"",
