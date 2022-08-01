@@ -3,11 +3,11 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'test framework pod integration'
  
-  s.description      = 'POD_TEST_FRAMEWORK_K' 
+  s.description      = 'POD_TEST_FRAMEWORK_K testing framwwork for' 
   s.homepage         = 'https://github.com/vishwas-mukund-zc/TestFrameworkPodInegration/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Zoomcar' => 'vishwas.mukund@zoomcar.com' }
-  s.source           = { :http => 'https://github.com/vishwas-mukund-zc/TestFrameworkPodInegration/blob/master/1.0.0/TestFrameworkPodInegration.zip'}
+  s.source           = { :http => 'https://github.com/vishwas-mukund-zc/TestFrameworkPodInegration/blob/48e5181bb892e67d041aff0e8e90587070d82288/1.0.0/testSDK.zip'}
   s.ios.deployment_target = '12.0'
  # s.source_files = 'ZMS/**/*.{swift}'
  # s.resource_bundle = {
